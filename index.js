@@ -16,7 +16,7 @@ const Guess = {
 let numberDrawn = Guess.numberDrawn();
 
 function updateAttempt(attempt, value){
-    attempt.innerHTML = 'Tentativa ne n°: ' + value;
+    attempt.innerHTML = 'Tentativa de n°: ' + value;
 };
 
 function handleSubmit(e){
